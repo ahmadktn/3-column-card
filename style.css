@@ -11,8 +11,6 @@ body{
 	justify-content: center;
 	background-color: hsl(0, 0%, 95%);
 }
-
-@media (max-width: 1440px){
 .container{
 	display: flex;
 	flex-direction: row;
@@ -83,9 +81,8 @@ button:hover{
 	background-color: transparent;
 	border: 2px solid hsl(0, 0%, 95%);
 }
-}
 
-@media (max-width: 375px){
+@media (min-width: 375px){
 	.container{
 	display: flex;
 	flex-direction: row;
